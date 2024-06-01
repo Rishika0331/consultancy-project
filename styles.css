@@ -1,14 +1,16 @@
-body {
+body*{
     font-family: Arial, sans-serif;
+   
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #5f5a5a;
+    background-color: #333232;
     color: #fff;
-    padding: 1em;
-    text-align: center;
+    padding: 0.5%;
+    text-align:right;
+    font-size:larger;
 }
 
 nav ul {
@@ -28,7 +30,7 @@ nav a {
     text-decoration: none;
 }
 
-.intro{
+.intro
     text-align: center;
     margin:50px;
     margin-bottom: 100px;
@@ -54,4 +56,14 @@ img{
 .missions{
     margin:50px;
     font-size: 1.4rem;
+}
+
+
+
+
+footer{
+    background-color: #333232;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
 }

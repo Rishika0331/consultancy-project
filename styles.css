@@ -61,8 +61,8 @@ a{
 
 img{
     margin-left: 50px;
-    height:250px;
-    width:550px;
+    height:320px;
+    width:470px;
 }
 
 .missions{
@@ -83,11 +83,14 @@ cite {
     color: #d15454;
 }
 
+
+
+
 .foot{
     background-color: black;
     color: #fff;
     padding: 1em;
-    text-align: center;
+    text-align:center;
 }
 
 .foot a{

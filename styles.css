@@ -8,9 +8,7 @@
 header {
     background-color: black;
     color: #fff;
-    
-    /* text-align:right;
-    font-size:larger; */
+    margin-bottom: 50px;
 }
 
 .nav-bar{
@@ -28,7 +26,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-left:30px;
+    margin-left:200px;
 }
 
 #img{
@@ -40,6 +38,15 @@ a{
     color:#fff;
     text-decoration: none;
     font-size: 1.1rem;
+}
+
+.border{
+    border:1.5px solid transparent;
+}
+
+.border:hover{
+    border:1.5px solid white;
+    border-radius: 10px;
 }
 
 .intro{
@@ -56,7 +63,7 @@ a{
     margin:50px;
     display: flex;
     justify-content: space-evenly;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
 }
 
 img{
@@ -67,8 +74,7 @@ img{
 
 .missions{
     margin:50px;
-    font-size: 1.4rem;
-    /* font-style:ital */
+    /* font-size: 1.4rem; */
 }
 
 blockquote {
@@ -84,13 +90,17 @@ cite {
 }
 
 
-
+.img-cases{
+    display: flex;
+    justify-content: space-around;
+}
 
 .foot{
     background-color: black;
     color: #fff;
     padding: 1em;
     text-align:center;
+    margin-top: 50px;
 }
 
 .foot a{

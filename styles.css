@@ -43,6 +43,15 @@ a{
     font-size: 1.1rem;
 }
 
+.border{
+    border:1.5px solid transparent;
+}
+
+.border:hover{
+    border:1.5px solid white;
+    border-radius: 10px;
+}
+
 .intro{
     text-align: center;
     margin:50px;

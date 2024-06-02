@@ -6,37 +6,39 @@
 }
 
 header {
-    background-color: #333232;
+    background-color: black;
     color: #fff;
     /* text-align:right;
     font-size:larger; */
 }
 
-.header{
+.nav-bar{
     display: flex;
+    height:60px;
 }
 
-.logo {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.logo{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-nav li {
-    margin-right: 20px;
+.signup{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left:300px;
 }
 
-nav img{
+#img{
     height:70px;
     width:150px;
 }
 
-nav a {
-    color: #fff;
+a{
+    color:#fff;
     text-decoration: none;
+    font-size: 1.15rem;
 }
 
 .intro{
@@ -57,7 +59,7 @@ nav a {
 }
 
 img{
-   margin-left: 50px;
+    margin-left: 50px;
     height:250px;
     width:550px;
 }
@@ -65,15 +67,19 @@ img{
 .missions{
     margin:50px;
     font-size: 1.4rem;
-    font-style:ital
+    /* font-style:ital */
 }
 
-
-
-
-footer{
-    background-color: #333232;
+.foot{
+    background-color: black;
     color: #fff;
     padding: 1em;
     text-align: center;
 }
+
+.foot a{
+    color:#fff;
+    text-decoration: none;
+    margin:100px;
+}
+

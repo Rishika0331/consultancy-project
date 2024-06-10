@@ -1,18 +1,19 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.jpeg">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.jpeg'  %}">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
 </head>
 <body>
     <header>
         <div class="nav-bar">
             <div class="logo">
                 <!-- <img src="Deloitte-Logo.png" id="img"> -->
-                <a href="index.html" ><img src="Deloitte-Logo.png" id="img" ></a>
+                <a href="index.html" ><img src="{% static 'images/Deloitte-Logo.png' %}" id="img" target = "_main" ></a>
                 <a href="/consultancy-project/about.html" target="_main" class="border">About Us</a>
                 <a href="/consultancy-project/services.html" target="_main" class="border">Services</a>
                 <a href="/consultancy-project/career.html" target="_main" class="border">Careers</a>
@@ -31,7 +32,7 @@
 
     <div class="info">
         <p>Deloitte's technology consultancy, a division of Deloitte Touche Tohmatsu Limited, has evolved significantly since its inception. Established in 1845, Deloitte initially focused on auditing and accounting. Over time, recognizing the growing influence of technology, Deloitte expanded its services. In the 1990s, amid the tech boom, Deloitte began offering comprehensive technology consulting services, addressing the increasing needs for IT strategy, systems integration, and data analytics. The acquisition of firms like Monitor Group in 2013 and the establishment of Deloitte Digital in 2012 marked its commitment to digital transformation and innovation. Today, Deloitte Technology Consulting is renowned for its expertise in cloud computing, cybersecurity, artificial intelligence, and blockchain, serving a wide array of industries globally. This transformation has positioned Deloitte as a leader in technology consultancy, blending deep industry knowledge with cutting-edge technological solutions to help clients navigate the complexities of the digital age.</p>
-        <img src="/consultancy-project/deloitte.webp">
+        <img src="{% static 'images/deloitte.webp' %}">
     </div>
 
     <div class="missions">
@@ -53,21 +54,21 @@
 
     <div class="mem-profiles">
         <div class="dan">
-            <img src="/consultancy-project/dan.jpeg" alt="Dan Helfrich">
+            <img src="{% static 'images/dan.jpeg'  %}" alt="Dan Helfrich">
             <h4>Dan Helfrich</h4>
             <p><b>Position:</b> Chair & CEO, Deloitte Consulting LLP</p>
             <p><b>Bio: </b>Dan leads over 80,000 professionals at Deloitte Consulting LLP, focusing on innovative and purpose-driven leadership. With more than 20 years of experience, he promotes an inclusive culture and continuous innovation, encouraging collaboration and modern problem-solving approaches.</p>
         </div>
 
         <div class="christina">
-            <img src="/consultancy-project/christina.jpeg" alt="Christina Bieniek">
+            <img src="{% static 'images/christina.jpeg'  %}" alt="Christina Bieniek">
             <h4>Christina Bieniek</h4>
             <p><b>Position: </b>Deputy Chief Executive Officer, Deloitte Consulting LLP</p>
             <p><b>Bio: </b>Christina is responsible for integrating teams and driving growth across Deloitte Consulting's various offerings and industries. She focuses on strategic advising and delivering high-value results to major clients.</p>
         </div>
 
         <div class="dounia">
-            <img src="/consultancy-project/dounia.jpeg" alt="Dounia Senawi">
+            <img src="{% static 'images/dounia.jpeg' %}" alt="Dounia Senawi">
             <h4>Dounia Senawi</h4>
             <p><b>Position: </b>Chief Commercial Officer, Deloitte Consulting LLP</p>
             <p><b>Bio: </b>Dounia leads Deloitte Consulting's go-to-market efforts, integrating sales, marketing, and alliances to drive profitable growth. She connects diverse teams to create value and optimize operations for clients.</p>

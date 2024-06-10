@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,8 +6,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="contact.css">
+	<link rel="stylesheet" href="{% static 'contact.css' %}"">
 	<title>Contact Us</title>
+	<link rel="icon" type="image/x-icon" href="{% static 'images/favicon.jpeg'  %}">
 </head>
 
 <body>
@@ -29,7 +31,7 @@
         <div class="nav-bar">
             <div class="logo">
                 <!-- <img src="Deloitte-Logo.png" id="img"> -->
-                <a href="index.html"><img src="Deloitte-Logo.png" id="img" ></a>
+                <a href="index.html"><img src="{% static 'images/Deloitte-Logo.png' %}" id="img" ></a>
                 <a href="/consultancy-project/about.html" target="_main" class="border">About Us</a>
                 <a href="/consultancy-project/services.html" target="_main" class="border">Services</a>
                 <a href="/consultancy-project/career.html" target="_main" class="border">Careers</a>
@@ -104,7 +106,7 @@
         </div>
     </footer>
 
-	<script src="contact1.js"></script>
+	<script src="{% static 'contact1.js' %}"></script>
 </body>
 
 </html>

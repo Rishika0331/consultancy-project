@@ -1,18 +1,19 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=s, initial-scale=1.0">
     <title>Services</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.jpeg">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.jpeg'  %}">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
 </head>
 <body>
     <header>
         <div class="nav-bar">
             <div class="logo">
                 <!-- <img src="Deloitte-Logo.png" id="img"> -->
-                <a href="index.html"><img src="Deloitte-Logo.png" id="img" ></a>
+                <a href="index.html"><img src="{% static 'images/Deloitte-Logo.png' %}" id="img" ></a>
                 <a href="/consultancy-project/about.html" target="_main" class="border">About Us</a>
                 <a href="/consultancy-project/services.html" target="_main" class="border">Services</a>
                 <a href="/consultancy-project/career.html" target="_main" class="border">Careers</a>
@@ -31,7 +32,7 @@
             Deloitte India offers a comprehensive range of IT consultancy services tailored to various business needs. Below are detailed descriptions of their core services:
             <ul> 
             <h2>1.Consulting</h2>
-            <img src="consultancy.jpg" style="width: 70%; height: auto;">
+            <img src="{% static 'images/consultancy.jpg' %}" style="width: 70%; height: auto;">
             <br><br>
 Innovation, transformation, and leadership occur in many ways. The ability to solve complex issues is critical. Together, we can help you imagine, deliver, and run your business, wherever you compete, using the latest technologies like cloud and cognitive, from strategy development through implementation.<br>
 
@@ -60,7 +61,7 @@ Innovation, transformation, and leadership occur in many ways. The ability to so
 
 
     <h2>2.Financial Advisory</h2>
-    <img src="financial-advisory.jpg" style="width: 70%; height: auto;"><br><br>
+    <img src="{% static 'images/financial-advisory.jpg' %}" style="width: 70%; height: auto;"><br><br>
     Deloitte India's Financial Advisory services provide a comprehensive suite of solutions designed to help clients navigate complex financial challenges and opportunities. These services are tailored to assist businesses in creating, enhancing, and preserving value across various stages of their lifecycle. The primary areas of focus within Deloitte's Financial Advisory practice include Corporate Finance & Restructuring, Forensic Services, M&A Transaction Services, and Valuation & Financial Modeling.<br>
 
 <b><li>Corporate Finance & Restructuring</li></b><br>
@@ -91,7 +92,7 @@ Deloitte's financial advisory services encompass a broad range of offerings aime
 
 
 <h2>3.Audit & Assurance</h2>
-<img src="auditandassurance.jpg" style="width: 40%; height: auto;"><br><br>
+<img src="{% static 'images/auditandassurance.jpg' %}" style="width: 40%; height: auto;"><br><br>
 Deloitte's Audit & Assurance services are designed to deliver high-quality insights and confidence in financial reporting, leveraging innovative processes, advanced technology, and extensive expertise. These services are integral to ensuring the integrity of financial information, enhancing transparency, and building trust among stakeholders.
 
 Key Components of Deloitte's Audit & Assurance Services:
@@ -121,7 +122,7 @@ Deloitte's Audit & Assurance services are designed to provide clients with confi
 
 
 <h2>4.Risk Advisory</h2>
-<img src="risk.jpg" style="width: 70%; height: auto;"><br><br>
+<img src="{% static 'images/risk.jpg' %}" style="width: 70%; height: auto;"><br><br>
 Deloitte's Risk Advisory services are designed to help organizations navigate the complexities of risk management and enhance their resilience, security, and compliance. These services cover a broad spectrum of risk-related areas, ensuring that businesses can address current challenges and prepare for future uncertainties.
 
 Key Areas of Deloitte's Risk Advisory Services:
@@ -157,8 +158,8 @@ Combining legal and regulatory advice with strategy and technology, Deloitte add
     <div>
         <p><br>
           <b>Here are few articles and case studies to refer:</b>
-          <div class="img-cases">
-            <p><a href="https://www2.deloitte.com/in/en/services/consulting/client-stories-and-successes.html"><img src="generative-ai.jpg"><br></a>
+          <div>
+            <p><a href="https://www2.deloitte.com/in/en/services/consulting/client-stories-and-successes.html" ><img src="{% static 'images/generative-ai.jpg' %}"><br></a>
             <b><p>Consulting client stories<br>
                 Stories of purpose and impact<br>
                 A curated collection of narratives that bring to life the many ways that Deloitte has helped clients unstick complex problems</p></b>
@@ -166,7 +167,7 @@ Combining legal and regulatory advice with strategy and technology, Deloitte add
 
             <br><br>
     
-            <p><a href="https://www2.deloitte.com/in/en/pages/about-deloitte/articles/Deloitte-Indias-generative-ai-practice.html"><img src="casestudy.jpg"></a><br>
+            <p><a href="https://www2.deloitte.com/in/en/pages/about-deloitte/articles/Deloitte-Indias-generative-ai-practice.html"><img src="{% static 'images/casestudy.jpg' %}"></a><br>
             <b><p>Deloitte India's Generative AI practice: Pioneering transformative solutions for businesses and communities</p></b><br>
             </p>
           </div>

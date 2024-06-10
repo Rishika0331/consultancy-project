@@ -1,11 +1,12 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Careers</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.jpeg">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.jpeg'  %}">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
 </head>
 <body>
 
@@ -13,7 +14,7 @@
         <div class="nav-bar">
             <div class="logo">
                 <!-- <img src="Deloitte-Logo.png" id="img"> -->
-                <a href="index.html" ><img src="Deloitte-Logo.png" id="img" ></a>
+                <a href="index.html" ><img src="{% static 'images/Deloitte-Logo.png' %}" id="img" ></a>
                 <a href="/consultancy-project/about.html" target="_main" class="border">About Us</a>
                 <a href="/consultancy-project/services.html" class="border">Services</a>
                 <a href="/consultancy-project/career.html" target="_main" class="border">Careers</a>
@@ -28,7 +29,7 @@
     <div class="job-opening">
 
         <h3>Here are some current job openings in Deloitte's Technology Consultancy division:</h5>
-        <img src="job-img.jpeg">
+        <img src="{% static 'images/job-img.jpeg' %}">
         <ol>
             <li>
                 <h4>Cloud Engineering Consultant</h4>
@@ -54,7 +55,7 @@
     </div>
 
     <div class="culture">
-        <img src="Careers.jpg">
+        <img src="{% static 'images/Careers.jpg' %}">
         <p>Deloitte Technology Consultancy emphasizes a dynamic and supportive company culture that prioritizes diversity, inclusion, and professional growth. The company is committed to fostering a collaborative and inclusive environment where employees are encouraged to be themselves and leverage their unique perspectives and skills.</p>
         <h4>Company Culture:</h4>
         <p>Deloitte’s culture is built on a foundation of respect and inclusivity. The firm actively promotes diversity, equity, and inclusion through various initiatives and programs, ensuring a welcoming environment for all employees. The company encourages continuous learning and development, offering numerous opportunities for professional growth and career advancement. Deloitte's focus on innovation and agility helps employees stay ahead in a rapidly changing technological landscape. The firm also places a strong emphasis on work-life balance, with policies and resources designed to support employees' well-being and mental health​</p>

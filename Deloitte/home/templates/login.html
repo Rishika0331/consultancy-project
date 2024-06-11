@@ -27,17 +27,20 @@
             <button class="signup">Signup</button>
         </div>
 
-    
+        <form method="post">
+            {% csrf_token %}
         <div class="form-section">
 
             
             <div class="login-box">
                 <input type="email" 
                        class="email ele" 
-                       placeholder="youremail@email.com">
+                       placeholder="youremail@email.com"
+                       name="email">
                 <input type="password"
                        class="password ele" 
-                       placeholder="password">
+                       placeholder="password"
+                       name="password">
                 <button class="clkbtn">Login</button>
             </div>
 
@@ -45,19 +48,23 @@
             <div class="signup-box">
                 <input type="text" 
                        class="name ele" 
-                       placeholder="Enter your name">
+                       placeholder="Enter your name"
+                       name="name">
                 <input type="email" 
                        class="email ele" 
-                       placeholder="youremail@email.com">
+                       placeholder="youremail@email.com"
+                       name="email">
                 <input type="password" 
                        class="password ele" 
-                       placeholder="password">
-                <input type="password" 
+                       placeholder="password"
+                       name="password">
+                <!-- <input type="password" 
                        class="password ele" 
-                       placeholder="Confirm password">
+                       placeholder="Confirm password"> -->
                 <button class="clkbtn">Signup</button>
             </div>
         </div>
+        </form>
     </div>
     <script src="{% static 'scripts.js' %}"></script>
 </body>

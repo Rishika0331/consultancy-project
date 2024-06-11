@@ -1,14 +1,14 @@
 @import url(
 "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-}
+} */
 
-body {
+/* body {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -17,16 +17,67 @@ body {
     flex-direction: column;
     gap: 30px;
     background-color: rgb(231, 231, 231);
+} */
+
+*{
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0;
 }
 
 header {
+    background-color: black;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:80px;
+}
+
+#img{
+    height:70px;
+    width:150px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.border{
+    border:1.5px solid transparent;
+    padding: 1rem;
+}
+
+.border:hover{
+    /* border:1.5px solid white;
+    border-radius: 10px; */
+    background-color: #0dac30;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* header {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 8px;
-}
+} */
 
 .heading {
     color: #0dac30;
@@ -59,7 +110,7 @@ header {
     align-items: center;
 }
 
-.login,
+/* .login,
 .signup {
     font-size: 22px;
     border: none;
@@ -67,26 +118,26 @@ header {
     background-color: transparent;
     position: relative;
     cursor: pointer;
-}
+} */
 
-.slider {
+/* .slider {
     height: 60px;
     width: 150px;
     border-radius: 50px;
     background-image: linear-gradient(to right,#9cf8b0, #0dac30);
-            /* rgb(255, 195, 110), */
-            /* rgb(255, 146, 91)); */
+             rgb(255, 195, 110), 
+             rgb(255, 146, 91)); 
 
             
     position: absolute;
     top: 20px;
     left: 100px;
     transition: all 0.5s ease-in-out;
-}
+} */
 
-.moveslider {
+/* .moveslider {
     left: 250px;
-}
+} */
 
 .form-section {
     height: 500px;

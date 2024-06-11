@@ -24,7 +24,7 @@ urlpatterns = [
     path('consultancy-project/about.html/',include('redirect.urls')),
     path('consultancy-project/services.html/',include('redirect.urls')),
     path('consultancy-project/career.html/',include('redirect.urls')),
-    path('consultancy-project/login.html/',include('redirect.urls')),
+    path('consultancy-project/signup.html/',include('redirect.urls')),
     path('consultancy-project/login.html/',include('redirect.urls')),
     path('consultancy-project/contact.html/',include('redirect.urls'))
     

@@ -12,12 +12,27 @@
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <h1 class="heading">DELOITTE</h1>
         <h3 class="title">Sign Up</h3>
+    </header> -->
+
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="index.html"><img src="{% static 'images/Deloitte-Logo.png' %}" id="img" target="_main"></a>
+                <a href="/consultancy-project/about.html" target="_main" class="border">About Us</a>
+                <a href="/consultancy-project/services.html" target="_main" class="border">Services</a>
+                <a href="/consultancy-project/career.html" target="_main" class="border">Careers</a>
+            </div>
+            <div class="signup">
+                <a href="/consultancy-project/signup.html" class="border">Sign up</a>
+                <a href="/consultancy-project/login.html" class="border">Login</a>
+            </div>
+        </div>
     </header>
 
-   
+   <main>
     <div class="container">
 
     
@@ -66,6 +81,7 @@
         </div>
         </form>
     </div>
+   </main>
     <script src="{% static 'scripts.js' %}"></script>
 </body>
 </html>

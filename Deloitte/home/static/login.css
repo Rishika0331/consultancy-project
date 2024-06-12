@@ -1,5 +1,5 @@
-@import url(
-"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* @import url(
+"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
 
 /* * {
     margin: 0;
@@ -8,7 +8,14 @@
     font-family: "Poppins", sans-serif;
 } */
 
-/* body {
+*{
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0;
+}
+
+body {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -17,14 +24,7 @@
     flex-direction: column;
     gap: 30px;
     background-color: rgb(231, 231, 231);
-} */
-
-*{
-    font-family: Arial, sans-serif;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding: 0;
-}
+} 
 
 header {
     background-color: black;
@@ -77,16 +77,16 @@ a{
     align-items: center;
     justify-content: center;
     gap: 8px;
-} */
+}  */
 
-.heading {
+/* .heading {
     color: #0dac30;
 }
 
 .title {
     font-weight: 400;
     letter-spacing: 1.5px;
-}
+} */
 
 .container {
     height: 600px;
@@ -95,7 +95,10 @@ a{
     box-shadow: 8px 8px 20px rgb(128, 128, 128);
     position: relative;
     overflow: hidden;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
 
 .btn {
     height: 60px;
@@ -110,7 +113,7 @@ a{
     align-items: center;
 }
 
-/* .login,
+ /* .login,
 .signup {
     font-size: 22px;
     border: none;
@@ -118,26 +121,26 @@ a{
     background-color: transparent;
     position: relative;
     cursor: pointer;
-} */
+} 
 
-/* .slider {
+.slider {
     height: 60px;
     width: 150px;
     border-radius: 50px;
     background-image: linear-gradient(to right,#9cf8b0, #0dac30);
              rgb(255, 195, 110), 
-             rgb(255, 146, 91)); 
+             rgb(255, 146, 91));  
 
             
     position: absolute;
     top: 20px;
     left: 100px;
     transition: all 0.5s ease-in-out;
-} */
+}
 
-/* .moveslider {
+.moveslider {
     left: 250px;
-} */
+}  */
 
 .form-section {
     height: 500px;
